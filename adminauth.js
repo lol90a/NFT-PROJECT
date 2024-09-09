@@ -150,4 +150,10 @@ let adminauth = async (req, res, next) => {
   }
 };
 
+module.exports = {
+  adminauth,
+  limiter,
+  applySecurityHeaders,
+};
+
 
